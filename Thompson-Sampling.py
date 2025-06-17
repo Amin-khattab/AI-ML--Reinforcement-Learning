@@ -6,7 +6,7 @@ import random
 dataset = pd.read_csv("Ads_CTR_Optimisation.csv")
 
 
-N = 300
+N = 10000
 col = 10
 Number_rewards_1 = [0] * col
 Number_rewards_0 = [0] * col
